@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Bromo</title>
+  <style>
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+
+    .container {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center; 
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .content-left {
+      flex: 1; 
+      padding-right: 30px; 
+    }
+
+    .heading {
+      font-size: 2.5em;
+      color: #333;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.6;
+    }
+
+
+    .content-right {
+      flex: 1; 
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+    }
+
+    .image {
+      width: 100%;
+      max-width: 500px; 
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    }
+
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column; 
+        text-align: center; 
+      }
+
+      .content-left {
+        padding-right: 0;
+        margin-bottom: 20px;
+      }
+
+      .content-right .image {
+        max-width: 80%; 
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="content-left">
+      <h2 class="heading">Gunung Bromo</h2>
+      <p class="description">
+Gunung Bromo adalah gunung berapi aktif di Jawa Timur, bagian dari kompleks vulkanik Tengger. Gunung ini terbentuk akibat letusan besar ribuan tahun lalu, yang meninggalkan kawah besar. Nama "Bromo" berasal dari "Brahma," dewa Hindu, dan gunung ini dianggap suci oleh masyarakat Tengger, yang meyakini bahwa dewa-dewa tinggal di sana. Masyarakat Tengger rutin mengadakan upacara Yadnya Kasada, mempersembahkan sesajen ke dalam kawah sebagai bentuk penghormatan. Selain itu, Gunung Bromo terkenal sebagai tujuan wisata, terutama untuk melihat matahari terbit yang spektakuler dan pemandangan lautan pasir yang luas. Keindahan alamnya juga menjadikannya lokasi syuting film.
+Saat ini, Gunung Bromo dikelola dalam Taman Nasional Bromo Tengger Semeru untuk pelestarian alam dan pemberdayaan masyarakat setempat.</p>
+    </div>
+    <div class="content-right">
+      <img src="ttgbromo.jpg" alt="Gambar Contoh" class="image">
+    </div>
+	<button type="submit"><a href="index.html">Kembali</a></button>
+  </div>
+
+</body>
+</html>
